@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Player for evolutsport</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="video">
+	<video width="800px" height="500px" poster="images/call_of_duty__black_ops-wallpaper-1366x768.jpg" onclick="playpause()" id="video">
+		  <source src="call.mp4" type="video/mp4">
+          <source src="call.ogg" type="video/ogg">
+	</video>
+	<img src="images/kruwka.png" id="play" onclick="playpause()" width="150px" height="150px">
+	<div class="video_panel">
+		<img src="images/hi.png" id="play2" onclick="playpause()" width="15px" height="15px">
+		<div class="slider" id="slider">
+		    <div class="slider2"></div>
+			<div class="polzunok"></div>
+			<div class="time1"></div>
+			<div class="time2"></div>
+			<div class="zvuk">
+                <div class="zvukslider" id="zvukslider">
+                	  <div class="zvukslider2"></div>
+                	  <div class="zvukpolzunok"></div>
+                </div>
+			</div>  
+		</div>
+	</div>
+</div>	
+<script src="main.js"></script>
+</body>
+</html>

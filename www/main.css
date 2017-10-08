@@ -1,0 +1,139 @@
+body
+{
+	background-image:url('images/call_of_duty_online_3-wallpaper-1366x768.jpg');
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.video
+{
+	margin:100px auto;
+	width:800px;
+	position: relative;
+}
+video
+{
+	cursor:pointer;
+}
+#play
+{
+	cursor:pointer;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#play2
+{
+	cursor:pointer;
+	position:absolute;
+	top:8px;
+	left:7px;
+	z-index:30;
+}
+.video_panel
+{
+	width:100%;
+	height:30px;
+	background-color:#1E2724;
+	position: absolute;
+	bottom:18px;
+	left:0;
+	z-index:1;
+}
+.slider
+{
+	position:absolute;
+	width:70%;
+	height:10px;
+	background-color: #252A2F;
+    top:10px;
+    left:105px;
+}
+.slider2
+{
+	position:relative;
+	width:0;
+	height:10px;
+	background-color: #EE601F;
+	z-index:2;
+}
+.polzunok
+{
+	cursor:pointer;
+	position:relative;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:#EE601F; 
+	top:-15px;
+	left:0;
+	z-index:34;
+}
+.time1,.time2
+{
+	color:#EE601F;
+	position:absolute;
+	width:50px;
+	height:15px;
+	text-align:center;
+}
+.time1
+{
+	left:-50px;
+	top:-4px;
+}
+.time2
+{
+    right:-60px;
+    top:-4px;
+}
+.zvuk
+{
+	width:18px;
+	height:18px;
+	background-image: url('images/zvuk.png');
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	background-position: center;
+	position:absolute;
+	top:-10px;
+	right:-90px;
+	cursor:pointer;
+	padding:5px;
+	border-radius:50%;
+}
+.zvuk:hover
+{
+	background-color: #252B2F;
+	box-shadow: 0 0 2px 1px #EE601F;
+}
+.zvukslider
+{
+	height:50px;
+	width:5px;
+	border-radius:10px;
+	background-color: #252A2F;
+	position: absolute;
+	top:-58px;
+	right:12px;
+	transform: rotate(180deg);
+	display:none;
+}
+.zvukslider2
+{
+	width:5px;
+	height:50px;
+	border-radius:10px;
+	background-color:#EE601F;
+	position: relative;
+}
+.zvukpolzunok
+{
+	width:11px;
+	height:11px;
+	border-radius:50%;
+	background-color:#EE601F;
+	position:relative; 
+	left:-3.51px;
+	top:-9px;
+}
